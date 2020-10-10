@@ -17,14 +17,14 @@ const App = () => {
     <div className="App">
       <Hero />
       <Sponsors />
-      <Services />
+      <Blog />
       <Software />
+      <Services />
       <Downloads />
       <Question />
       <Faq />
-      <Pricing />
       <Testimonials />
-      <Blog />
+      <Pricing />
       <Contact />
     </div>
   );
