@@ -4,7 +4,10 @@ import { css, jsx } from "@emotion/core";
 const BlogCard = ({ blogImg }) => {
   return (
     <div css={styles} className="blogCard">
+      <div className="img">
       <img src={blogImg} alt="blog" />
+      </div>
+
       <div className="blogCardInfo">
         <div className="blogCardDate">
           <a href="#/">May 17, 2020</a>
@@ -22,10 +25,21 @@ const BlogCard = ({ blogImg }) => {
 const styles = css`
   width: 100%;
   max-width: 360px;
+  .img{
+    overflow: hidden;
+
+  }
   img {
     width: 100%;
     height: 280px;
     display: block;
+    cursor: pointer;
+    transform: scale(1.15);
+    transition: 200ms;
+  }
+
+  img:hover {
+    transform: scale(1);
   }
   .blogCardInfo {
     display: flex;
