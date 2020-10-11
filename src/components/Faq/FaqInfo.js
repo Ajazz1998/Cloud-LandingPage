@@ -5,6 +5,7 @@ import FaqDesc from "./FaqDesc";
 import FaqHeading from "./FaqHeading";
 import FaqData from "./faqAn/FaqData";
 import FaqDas from "./faqAn/faqDash";
+import FaqFunds from "./faqAn/faqBg";
 
 const FaqInfo = () => {
   const [hidden, setHidden] = useState("How To Make An Account?");
@@ -30,7 +31,7 @@ const FaqInfo = () => {
           setHidden={setHidden}
           type="How To Grow Your Investments Funds?"
         />
-        <FaqData type="How To Grow Your Investments Funds?" hidden={hidden} />
+        <FaqFunds type="How To Grow Your Investments Funds?" hidden={hidden} />
         <FaqHeading
           hidden={hidden}
           setHidden={setHidden}

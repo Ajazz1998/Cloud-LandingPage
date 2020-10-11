@@ -14,7 +14,7 @@ const FaqData = ({ hidden, type }) => {
 };
 
 const styles = css`
-  height: 200px;
+  height: 100px;
   opacity: 1;
   margin: 10px 0;
   transition: all 600ms ease-in-out;

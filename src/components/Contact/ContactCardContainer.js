@@ -41,11 +41,11 @@ const ContactCardContainer = () => {
         <h2>Office</h2>
         <div className="row">
           <i className="fas fa-map-marker-alt"></i>
-          <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+          <p>High Road Wembley, London, Uk</p>
         </div>
         <div className="row">
           <a href="#/">
-            <i className="fas fa-phone"></i> +2 392 3929 210
+            <i className="fas fa-phone"></i> +002 392 3929 210
           </a>
         </div>
         <div className="row">
