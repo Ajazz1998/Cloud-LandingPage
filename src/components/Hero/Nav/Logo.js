@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
 
-const Logo = () => <h2 css={styles}>Cloud Template</h2>;
+const Logo = () => <h2 css={styles}>Cloud Service</h2>;
 
 const styles = css`
   font-size: 20px;

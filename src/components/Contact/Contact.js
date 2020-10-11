@@ -15,7 +15,7 @@ const Contact = () => {
 
 const styles = css`
   width: 100%;
-  background: #421b9b;
+  background: #000;
   padding: 110px 0;
 `;
 

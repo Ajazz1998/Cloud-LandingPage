@@ -6,7 +6,7 @@ const FaqHeading = ({ type, hidden, setHidden }) => {
     <div
       css={styles}
       style={{
-        background: hidden === type ? "#3f52e3" : "#fff",
+        background: hidden === type ? "#8a90ff" : "#fff",
         color: hidden === type ? "#fff" : "#000",
       }}
       className="faqHeading"

@@ -24,7 +24,7 @@ const Downloads = () => {
 const styles = css`
   width: 100%;
   padding: 100px 0;
-  background: #3f52e3;
+  background: #8a90ff;
   .title {
     width: 100%;
     max-width: 700px;

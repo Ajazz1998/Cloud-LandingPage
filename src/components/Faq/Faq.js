@@ -8,8 +8,8 @@ const Faq = () => {
   return (
     <section css={styles} className="faq" id="leadership">
       <Container>
-        <FaqBg />
         <FaqInfo />
+        <FaqBg />
       </Container>
     </section>
   );

@@ -1,17 +1,17 @@
 /** @jsx jsx */
 import { css, jsx } from "@emotion/core";
-import HeroImg from "../../img/heroBg.svg";
+import HeroImg from "../../img/heroBg.png";
 
 const HeroBg = () => <img css={styles} src={HeroImg} alt="heroBanner" />;
 
 const styles = css`
-  width: 60%;
+  width: 40%;
   height: auto;
   display: block;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 0;
+  left: 10%;
   @media (max-width: 875px) {
     display: none;
   }

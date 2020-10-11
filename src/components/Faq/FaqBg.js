@@ -8,7 +8,7 @@ const styles = css`
   width: 100%;
   max-width: 540px;
   background: url('${FaqImg}') no-repeat center/cover;
-  height: 700px;
+  height: 670px;
   display: block;
   border-radius: 4px;
   box-shadow: 17px 25px 56px -22px rgba(0, 0, 0, 0.38);

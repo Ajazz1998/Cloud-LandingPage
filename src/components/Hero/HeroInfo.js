@@ -5,7 +5,7 @@ import Button from "../GlobalComponents/Button";
 const HeroInfo = () => {
   return (
     <div css={styles} className="heroInfo">
-      <span>CLOUD TEMPLATE</span>
+      <span>CLOUD  SERVICE</span>
       <h2>
         Cloud, <br />
         Management,
