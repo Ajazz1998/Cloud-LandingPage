@@ -13,33 +13,33 @@ const Pricing = () => {
           cardPlan="Basic Plan"
           cardPrice="0"
           cardFeatures="100% free. Forever"
-          cardBandwidth="150GB"
-          cardStorage="100GB"
-          cardOverage="$1.00 / GB"
-        />
-        <PricingCard
-          cardPlan="Advanced Plan"
-          cardPrice="19"
-          cardFeatures="All features are included"
-          cardBandwidth="450GB"
-          cardStorage="400GB"
+          cardBandwidth="250GB"
+          cardStorage="150GB"
           cardOverage="$2.00 / GB"
         />
         <PricingCard
+          cardPlan="Advanced Plan"
+          cardPrice="16"
+          cardFeatures="All features are included"
+          cardBandwidth="450GB"
+          cardStorage="420GB"
+          cardOverage="$2.20 / GB"
+        />
+        <PricingCard
           cardPlan="Expert Plan"
-          cardPrice="49"
+          cardPrice="39"
           cardFeatures="All features are included"
           cardBandwidth="250GB"
-          cardStorage="200GB"
-          cardOverage="$5.00 / GB"
+          cardStorage="210GB"
+          cardOverage="$3.00 / GB"
         />
         <PricingCard
           cardPlan="Pro Plan"
-          cardPrice="99"
+          cardPrice="79"
           cardFeatures="All features are included"
           cardBandwidth="450GB"
-          cardStorage="400GB"
-          cardOverage="$20.00 / GB"
+          cardStorage="1000GB"
+          cardOverage="$25.00 / GB"
         />
       </Container>
     </section>
